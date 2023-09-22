@@ -2,8 +2,12 @@ package main
 
 import (
 	"D/Workspace/Go/godesde0/variables"
+	"fmt"
 )
 
 func main() {
-	variables.MuestroEnteros()
+
+	estado, texto := variables.ContvierteaTexto(1588)
+	fmt.Println(estado)
+	fmt.Println(texto)
 }
