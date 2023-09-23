@@ -1,11 +1,15 @@
 package main
 
 import (
-	"D/Workspace/Go/godesde0/files"
+	"D/Workspace/Go/godesde0/funciones"
 )
 
 func main() {
-	files.LeoArchivo()
+	funciones.Exponencia(2)
+	//funciones.LlamarClosure()
+	//funciones.Calculos()
+
+	//files.LeoArchivo()
 
 	//files.SumaTabla()
 
