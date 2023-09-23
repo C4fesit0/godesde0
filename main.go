@@ -2,12 +2,16 @@ package main
 
 import (
 	"D/Workspace/Go/godesde0/ejercicios"
-	"fmt"
 )
 
 func main() {
-	numero, texto := ejercicios.Ejercicio("20")
-	fmt.Println(numero, texto)
+	ejercicios.Ejercicio2()
+	//iteraciones.Iterar()
+
+	//teclado.IngresosNumeros()
+
+	/* numero, texto := ejercicios.Ejercicio("fffff")
+	fmt.Println(numero, texto) */
 
 	/* estado, texto := variables.ContvierteaTexto(1588)
 	fmt.Println(estado)

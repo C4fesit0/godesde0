@@ -4,8 +4,11 @@ import (
 	"strconv"
 )
 
-func Ejercicio(texto string) (int, string) {
-	entero, _ := strconv.Atoi(texto)
+func Ejercicio1(texto string) (int, string) {
+	entero, err := strconv.Atoi(texto)
+	if err != nil {
+		return 0, "Hubo un error " + err.Error()
+	}
 	if entero > 100 {
 		return entero, "Es mayor a 100"
 	} else {
