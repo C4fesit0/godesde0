@@ -1,11 +1,14 @@
 package main
 
 import (
-	"D/Workspace/Go/godesde0/ejercicios"
+	"D/Workspace/Go/godesde0/files"
 )
 
 func main() {
-	ejercicios.Ejercicio2()
+	files.LeoArchivo()
+
+	//files.SumaTabla()
+
 	//iteraciones.Iterar()
 
 	//teclado.IngresosNumeros()

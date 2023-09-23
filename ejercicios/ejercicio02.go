@@ -7,24 +7,26 @@ import (
 	"strconv"
 )
 
-func Ejercicio2() {
+func TablaDeMultiplicar() string {
 	var num int
 	var err error
+	var texto string
 	scanner := bufio.NewScanner(os.Stdin)
-	fmt.Println("Ingrese un numero")
+
 	for {
+		fmt.Println("Ingrese un numero")
 		if scanner.Scan() {
 			num, err = strconv.Atoi(scanner.Text())
 			if err != nil {
-				fmt.Println("El dato ingresado es incorrecto ingreselo nuevamente")
+				continue
 			} else {
 				break
 			}
 		}
 	}
 
-	for i := 0; i < 10; i++ {
-		fmt.Println(num, "x", i+1, "=", num*(i+1))
+	for i := 1; i < 11; i++ {
+		texto += fmt.Sprintf("%d x %d = %d \n", num, i, num*i)
 	}
-
+	return texto
 }

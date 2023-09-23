@@ -4,7 +4,7 @@ import (
 	"strconv"
 )
 
-func Ejercicio1(texto string) (int, string) {
+func ConvEntero(texto string) (int, string) {
 	entero, err := strconv.Atoi(texto)
 	if err != nil {
 		return 0, "Hubo un error " + err.Error()
