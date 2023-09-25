@@ -1,11 +1,14 @@
 package main
 
 import (
-	"D/Workspace/Go/godesde0/funciones"
+	"D/Workspace/Go/godesde0/mapas"
 )
 
 func main() {
-	funciones.Exponencia(2)
+	mapas.MostrarMapas()
+	//arreglos_slices.Capacidad()
+	//arreglos_slices.MuestroSlice()
+	//funciones.Exponencia(2)
 	//funciones.LlamarClosure()
 	//funciones.Calculos()
 
