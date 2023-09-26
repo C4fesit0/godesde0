@@ -1,11 +1,12 @@
 package main
 
 import (
-	"D/Workspace/Go/godesde0/mapas"
+	"D/Workspace/Go/godesde0/users"
 )
 
 func main() {
-	mapas.MostrarMapas()
+	users.AltaUsuario()
+	//mapas.MostrarMapas()
 	//arreglos_slices.Capacidad()
 	//arreglos_slices.MuestroSlice()
 	//funciones.Exponencia(2)
