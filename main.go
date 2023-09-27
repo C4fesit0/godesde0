@@ -1,11 +1,16 @@
 package main
 
 import (
-	"D/Workspace/Go/godesde0/users"
+	e "D/Workspace/Go/godesde0/ejer_interfaces"
+	"D/Workspace/Go/godesde0/modelos"
 )
 
 func main() {
-	users.AltaUsuario()
+	Pedro := new(modelos.Hombre)
+	e.HumanosRespirando(Pedro)
+	Maria := new(modelos.Mujer)
+	e.HumanosRespirando(Maria)
+	//users.AltaUsuario()
 	//mapas.MostrarMapas()
 	//arreglos_slices.Capacidad()
 	//arreglos_slices.MuestroSlice()
