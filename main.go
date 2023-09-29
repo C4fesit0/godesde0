@@ -1,16 +1,21 @@
 package main
 
 import (
-	"D/Workspace/Go/godesde0/gorutines"
-	"fmt"
+	"D/Workspace/Go/godesde0/webserver"
 )
 
 func main() {
-	go gorutines.MiNombreLentooo("Alan Lazo")
-	fmt.Println("Estoy aqui")
+	webserver.MiWebServer()
+	/* canal1 := make(chan bool)
+	go gorutines.MiNombreLentooo("Alan Lazo", canal1)
 
+	defer func() {
+		<-canal1
+	}()
+	fmt.Println("Esto aqui") */
+	/* 	fmt.Println("Estoy aqui")
 	var x string
-	fmt.Scanln(&x)
+	fmt.Scanln(&x) */
 
 	//defer_panic.EjemploPanic()
 	/* Pedro := new(modelos.Hombre)
