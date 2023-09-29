@@ -1,12 +1,18 @@
 package main
 
 import (
-	"D/Workspace/Go/godesde0/defer_panic"
+	"D/Workspace/Go/godesde0/gorutines"
+	"fmt"
 )
 
 func main() {
+	go gorutines.MiNombreLentooo("Alan Lazo")
+	fmt.Println("Estoy aqui")
 
-	defer_panic.EjemploPanic()
+	var x string
+	fmt.Scanln(&x)
+
+	//defer_panic.EjemploPanic()
 	/* Pedro := new(modelos.Hombre)
 	e.HumanosRespirando(Pedro)
 	Maria := new(modelos.Mujer)
