@@ -1,15 +1,16 @@
 package main
 
 import (
-	e "D/Workspace/Go/godesde0/ejer_interfaces"
-	"D/Workspace/Go/godesde0/modelos"
+	"D/Workspace/Go/godesde0/defer_panic"
 )
 
 func main() {
-	Pedro := new(modelos.Hombre)
+
+	defer_panic.EjemploPanic()
+	/* Pedro := new(modelos.Hombre)
 	e.HumanosRespirando(Pedro)
 	Maria := new(modelos.Mujer)
-	e.HumanosRespirando(Maria)
+	e.HumanosRespirando(Maria) */
 	//users.AltaUsuario()
 	//mapas.MostrarMapas()
 	//arreglos_slices.Capacidad()
