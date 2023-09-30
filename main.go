@@ -1,11 +1,12 @@
 package main
 
 import (
-	"D/Workspace/Go/godesde0/webserver"
+	"D/Workspace/Go/godesde0/middleware"
 )
 
 func main() {
-	webserver.MiWebServer()
+	middleware.MiMiddleware()
+	//webserver.MiWebServer()
 	/* canal1 := make(chan bool)
 	go gorutines.MiNombreLentooo("Alan Lazo", canal1)
 
